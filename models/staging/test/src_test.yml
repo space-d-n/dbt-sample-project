@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: test
+    description: wd5 test
+    database: raw
+    schema: test
+    tables:
+      - name: calendar
+        description: mapping between period and wd5
